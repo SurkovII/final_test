@@ -62,9 +62,9 @@ try
     int sizeArray = Convert.ToInt32(Console.ReadLine());
     string[] array = new string[sizeArray];
     FillArray(array);
-    string[] Array2 = FindStringOfThreeSymbol(array, 3);
     PrintArray(array);
     Console.Write("->");
+    string[] Array2 = FindStringOfThreeSymbol(array, 3);
     PrintArray(Array2);
     Console.WriteLine();
 }
